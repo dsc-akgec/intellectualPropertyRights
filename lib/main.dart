@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:ipr/pages/aadhar_auth.dart';
 
 import 'package:ipr/pages/activity_page.dart';
 import 'package:ipr/pages/login_screen.dart';
@@ -16,7 +17,7 @@ Future<void> main() async {
   runApp(
       MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Home(),
+        home: AadharAuth(),
       )
   );
 }
